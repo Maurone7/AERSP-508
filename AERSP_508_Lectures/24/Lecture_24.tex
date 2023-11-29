@@ -1,0 +1,158 @@
+\documentclass{article}
+
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{thmtools}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage[colorlinks=true, linkcolor=Blue]{hyperref}
+\usepackage{cancel}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{empheq}
+\newtcolorbox{mymathbox}[1][]{colback=white, sharp corners, #1}
+\usepackage{witharrows}
+
+
+\colorlet{LightGray}{White!90!Periwinkle}
+\colorlet{LightOrange}{Orange!15}
+\colorlet{LightGreen}{Green!15}
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+
+\declaretheoremstyle[name=Theorem,]{thmsty}
+\declaretheorem[style=thmsty,numberwithin=section]{theorem}
+\tcolorboxenvironment{theorem}{colback=LightGray}
+
+\declaretheoremstyle[name=Proposition,]{prosty}
+\declaretheorem[style=prosty,numberlike=theorem]{proposition}
+\tcolorboxenvironment{proposition}{colback=LightOrange}
+
+\declaretheoremstyle[name=Principle,]{prcpsty}
+\declaretheorem[style=prcpsty,numberlike=theorem]{principle}
+\tcolorboxenvironment{principle}{colback=LightGreen}
+
+\setstretch{1.2}
+\geometry{
+    textheight=9in,
+    textwidth=5.5in,
+    top=1in,
+    headheight=12pt,
+    headsep=25pt,
+    footskip=30pt
+}
+
+% ------------------------------------------------------------------------------
+
+\begin{document}
+\title{AERSP 508 Lecture 24}
+\author{Mauro Patimo}
+\maketitle
+
+The velocity profile of a fluid in contact with a surface is shown in Fig. \ref{fig:velocity profile}. The steepness of the velocity profile at the surface is directly related to the skin friction on the surface. We can write the formula for the shear stress on the fluid when y=0:
+
+\begin{equation}
+    \tau_\omega = \tau_{xy}=\mu(\frac{dv}{dx}+\frac{du}{dy})\Rightarrow \mu\frac{du}{dy}
+\end{equation}
+From the previous lecture we know that $v \sim \epsilon U_\infty$, $\frac{d}{dy} \sim \frac{1}{\epsilon L}$, $u\sim U_\infty$ and $\frac{d}{dx} \sim \frac{1}{L}$. Then 
+\begin{align}
+    \frac{dv}{dx} \sim \frac{\epsilon U_\infty}{L} \Rightarrow \mathcal{O}(\epsilon)\\
+    \frac{du}{dy} \sim \frac{U_\infty}{\epsilon L} \Rightarrow \mathcal{O}\Big(\frac{1}{\epsilon}\Big)
+\end{align}
+So we can ignore $\frac{dv}{dx}$ since it will be much smaller than the other term \footnote{Remember that $\epsilon\to 0$}. \\
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{velocity_boundary_layer.png}
+    \caption{Enter Caption}
+    \label{fig:velocity profile}
+\end{figure}
+
+This means that the faster the velocity parallel to the surface increases along the y-axis the higher the shear stress term will be. We can introduce a coefficient to describe this skin friction:
+\begin{equation}
+    C_f = \frac{2 \tau_\omega}{\rho u_e^2}
+\end{equation}
+If we look at Fig. \ref{fig:skin friction}, we notice that we have different slopes of the velocity $u$ along the y-axis. Therefore, we have different skin coefficients.\\
+$C_{f,1} > C_{f,2}$ where $C_{f,1}$ is the skin coefficient of the first velocity profile, and $C_{f,2}$ is the skin-friction coefficient of the second velocity profile from the left. \\
+The third velocity profile shows a skin-friction coefficient equal to 0, or $\tau_\omega \to 0$. When this happens, we state that the BL separates because in 2 dimensions this is the necessary condition for the surface streamline to bifurcate, as shown in the next velocity profiles.
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{Screenshot 2023-11-17 at 11.48.57 PM.png}
+    \caption{Enter Caption}
+    \label{fig:skin friction}
+\end{figure}
+
+The behaviour of the profile near the wall is directly related to the pressure gradient. On the wall we have the no-slip condition, which makes the left hand side of the x-momentum equation equal to 0 \footnote{The equation for the x-momentum is \begin{align*}
+    u\frac{du}{dx}+v\frac{dv}{dy}=-\frac{1}{\rho}\frac{dP}{dx}+\nu\Big(\frac{d^2u}{dx^2}+\frac{d^2u}{dy^2}\Big)
+\end{align*}}. Therefore, the right-hand side of the equation has to be equal to 0 as well:
+\begin{equation}
+    0=-\frac{1}{\rho}\frac{dP}{dx}+\nu\Big(\frac{d^2u}{dy^2}\Big)
+\end{equation}
+In order to understand the behaviour of the pressure gradient, we need to analyze the second derivative of the $u$ velocity in terms of y. The curvature of the velocity (which is the second derivative) will therefore tell us the sign of the pressure gradient. When the pressure gradient is negative, the curvature will also be negative. If the pressure gradient is positive, the curvature will be positive up to an inflection point. This happens because the velocity has to be asymptotic to $u_e$ between y=0 and y=$\delta$. If the pressure gradient is $<0$ it is called "favorable gradient", and if it is $>0$ it is called "adverse gradient". \\
+If we have an adverse gradient we can experience flow separation. While a favorable gradient will help the flow keep its momentum, an adverse gradient, with the help of viscosity, can make the flow run out of momentum at the wall. The areas where we notice this phenomenon are called "separation bubbles". This happens if the flow reattaches after the separation. For reattachment the flow has to transition from laminar to turbulent.\\
+
+\section{Prandtl's Solution}
+Prandtl's equation are elliptical\footnote{On order to be parabolic a PDE has to have its determinant be equal to 0 :$B^2 - 4AC=0$}. This means that the flow at a certain point can be determined only by its past or by upstream history, in other words, whatever happens after a certain point doesn't affect points before. The only thing that we need are the initial conditions at the boundaries $\frac{dP}{dx}=-\rho u_e\frac{du_e}{dx}$. Prandtl's equation breakdown at separation ("Goldstein singularity"). \\
+In order to solve Prandtl's equation we can use a similarity solution\footnote{A similarity solution is a method to solve PDEs. It introduces a new variables that is related to all the variables in the previous PDE, in order to make the PDE become an ODE.}. \\
+\begin{equation}
+    \psi=U_eg(x)f(\eta)
+\end{equation}
+Where $\eta=\frac{y}{g(x)}$. Now we can solve for $u$ and $v$.\\
+\begin{center}
+$\begin{WithArrows}
+    u & =\frac{d\psi}{dy} \Arrow{$d\eta=\frac{1}{g(x)}dy$}\\
+      & = \frac{d\psi}{d\eta}\frac{1}{g(x)}\\
+      & = U_eg(x)f'(\eta)\frac{1}{g(x)}
+\end{WithArrows}$
+\begin{equation}
+    u = U_ef'(\eta) \label{eq:u in terms of eta}
+\end{equation}
+$\begin{WithArrows}
+    v & =-\frac{d\psi}{dx} \\
+      & =-U_e\Big(\frac{dg(x)}{dx}f(\eta) + g(x)\frac{df(\eta)}{dx}\Big) \Arrow{$d\eta=-\frac{y}{g^2(x)}dx$}\\
+      & = -U_e\Big(g'(x)f(\eta)-g(x)\frac{df(\eta)}{d\eta}\frac{y}{g^2(x)}\Big)
+\end{WithArrows}$
+\begin{equation}
+      v = -U_e\Big(g'(x)f(\eta)-g(x)f'(\eta)\frac{y}{g^2(x)}\Big) \label{eq:v in terms of eta}
+\end{equation}
+\end{center}
+Plug it into the x-momentum equation \\
+\begin{align*}
+    U_ef'(\eta) \frac{d\Big(U_ef'(\eta)\big)}{dx}+ -U_e\Big(g'(x)f(\eta)-g(x)f'(\eta)\frac{y}{g^2(x)}\Big)\frac{\Big(-U_e\Big(g'(x)f(\eta)-g(x)f'(\eta)\frac{y}{g^2(x)}\Big)}{dy} = 0 \\
+    U_ef'(\eta)U_ef''(\eta)\Big(-\frac{y}{g^2(x)}\Big)g'(x)+U_eg'(x)(-f(\eta)+\eta f'(\eta)\Big)\frac{U_e}{g(x)}f''(\eta) = \nu \frac{U}{g^2(x)}f'''(\eta) \\
+    -\frac{U^2}{g(x)}g'(x)f(\eta)f''(\eta)=\nu \frac{U}{g^2(x)}f'''(\eta)
+\end{align*}
+\begin{equation}
+    f'''(\eta)+\frac{U_e}{\nu}g(x)g'(x)f(\eta)f''(\eta)=0
+\end{equation}
+In order to have our equations in terms of $\eta$: \\
+\begin{align*}
+    \frac{U_e}{\nu}g(x)g'(x)=C
+\end{align*}
+Let's take C=1 to make things easy \\
+\begin{align*}
+    \frac{1}{2}\frac{U_e}{\nu}(g(x)^2)'=\frac{1}{2} \\
+    (g(x)^{2})' dx = \frac{\nu}{U_e}dx \\
+    g(x)=\sqrt{\frac{\nu x}{U_e}}
+\end{align*}
+We can solve this for $\eta$:
+\begin{align*}
+    \eta = \frac{y}{\sqrt{\frac{2\nu x}{U_e}}}
+\end{align*}
+Since we equaled our coefficient to 1 the resulting ODE is:
+\begin{equation}
+    f'''(\eta)+\frac{1}{2}f(\eta)f''(\eta)=0
+\end{equation}
+Since $u=v=0$ at $y=0$ we can use eq. \ref{eq:u in terms of eta} and eq. \ref{eq:v in terms of eta} to determine that $f(0)=f'(0)=0$. And we can use again \ref{eq:u in terms of eta} to determine that $\frac{df}{d\eta} \to 1$ as $\eta \to \infty$. \\
+By numerical solution we can determine that $f''(0)=0.332$. We can finally calculate the skin-friction coefficient. Starting from the wall shear stress:\\
+\begin{align*}
+    \tau_\omegamu\frac{du}{dy}\Big|_wall=U_ef''(\eta)g(x)\Big|_{\eta=0}=U_ef''(0)g(x)
+\end{align*}
+\begin{align*}
+    C_f=\frac{2\tau_\omega}{\rho U_e^2}=\frac{2\nu}{U_eg(x)}(0.332)\\
+    C_f= 0.664\sqrt{\frac{\nu}{U_ex}}=\frac{0.664}{\sqrt{Re}}
+\end{align*}
+\end{document}
