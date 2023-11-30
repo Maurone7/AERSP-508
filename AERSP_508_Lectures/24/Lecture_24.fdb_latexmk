@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1701233909 "/Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/AERSP_508_Lectures/24/Lecture_24.tex" "Lecture_24.pdf" "Lecture_24" 1701233911 2
+["pdflatex"] 1701280639 "/Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/AERSP_508_Lectures/24/Lecture_24.tex" "Lecture_24.pdf" "Lecture_24" 1701280640 2
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1701232166 1004 54797486969f23fa377b128694d548df ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1701232166 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1701232166 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -165,7 +165,7 @@
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/trimspaces/trimspaces.sty" 1701232182 1380 971a51b00a14503ddf754cab24c3f209 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty" 1701232182 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty" 1701232182 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "/Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1701233613 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+  "/Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map" 1701234070 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "/Users/mauro/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1701232262 21036084 c84e5759d12a574df184e0e03bd8f694 ""
   "/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty" 1701233598 40635 c40361e206be584d448876bba8a64a3b ""
   "/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bitset/bitset.sty" 1701233596 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
@@ -209,10 +209,10 @@
   "/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmtools/thm-restate.sty" 1701233561 8051 10018eb9c2d166333bfceb517a425f4d ""
   "/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/thmtools/thmtools.sty" 1701233561 1913 873bc7fbf18d7dd934dc3a6cc156472e ""
   "/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/varwidth/varwidth.sty" 1701233612 10894 d359a13923460b2a73d4312d613554c8 ""
-  "/Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/AERSP_508_Lectures/24/Lecture_24.tex" 1701233903 8699 c6bb386a01f16fe0614e6ea79f7a81ec ""
-  "Lecture_24.aux" 1701233910 1689 82754c8ab5abea3d4d39724ad37eabf4 "pdflatex"
-  "Lecture_24.out" 1701233910 136 e45aacfc623aedbc96fc1d8f087e9fcb "pdflatex"
-  "Lecture_24.tex" 1701233903 8699 c6bb386a01f16fe0614e6ea79f7a81ec ""
+  "/Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/AERSP_508_Lectures/24/Lecture_24.tex" 1701280635 8699 c6bb386a01f16fe0614e6ea79f7a81ec ""
+  "Lecture_24.aux" 1701280640 1689 82754c8ab5abea3d4d39724ad37eabf4 "pdflatex"
+  "Lecture_24.out" 1701280640 136 e45aacfc623aedbc96fc1d8f087e9fcb "pdflatex"
+  "Lecture_24.tex" 1701280635 8699 c6bb386a01f16fe0614e6ea79f7a81ec ""
   "Screenshot 2023-11-17 at 11.48.57^^e2^^80^^afPM.png" 0 -1 0 ""
   "velocity_boundary_layer.png" 0 -1 0 ""
   (generated)

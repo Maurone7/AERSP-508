@@ -301,10 +301,10 @@ INPUT ./Lecture_25.out
 INPUT ./Lecture_25.out
 INPUT Lecture_25.out
 INPUT Lecture_25.out
+OUTPUT Lecture_25.pdf
 INPUT ./Lecture_25.out
 INPUT ./Lecture_25.out
 OUTPUT Lecture_25.out
-OUTPUT Lecture_25.pdf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
@@ -346,9 +346,13 @@ INPUT ./Wedges Examples.png
 INPUT ./Wedges Examples.png
 INPUT ./Wedges Examples.png
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx12.tfm
 INPUT Lecture_25.aux
 INPUT ./Lecture_25.out
 INPUT ./Lecture_25.out
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb
