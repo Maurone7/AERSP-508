@@ -1,38 +1,18 @@
 import numpy as np
 import matplotlib.pyplot as plt
-# Define falker-skan equation
-def falker_skan_equation(beta, f, f_prime, f_double_prime, f_triple_prime):
-    return f_triple_prime + f * f_double_prime + beta * (1 - f_prime**2)
+from scipy.integrate import solve_ivp
 
-# Values of eta
-eta = np.linspace(0, 100, int(100/0.001))
+beta_list = [-0.1988, -0.1, -0.05, 0, 0.2, 0.5]
+eta = np.linspace(0, 5, 5001)
 
-# make a list of m values from 0 to 1 as a list
-m_list = np.linspace(0, 1, 11)
-beta = lambda m: 2*m/(1+m)
-beta_list = [beta(m) for m in m_list]
+def falkner_skan_differential_equation(eta, f, beta):
+    return [f[1], f[2], -f[0] * f[2] - beta * (1 - f[1] ** 2)]
 
-def rk4(fn, y0, t, dt):
-    """
-    RK4 integrator
-
-    Parameters:
-    - fn: the function to be integrated
-    - y0: the initial value of the state vector
-    - t: the initial time
-    - dt: the time step
-
-    Returns:
-    - y1: the state vector at the next time step
-    """
-
-    k1 = fn(t, y0)
-    k2 = fn(t + 0.5 * dt, y0 + 0.5 * dt * k1)
-    k3 = fn(t + 0.5 * dt, y0 + 0.5 * dt * k2)
-    k4 = fn(t + dt, y0 + dt * k3)
-
-    y1 = y0 + (dt / 6) * (k1 + 2 * k2 + 2 * k3 + k4)
-
-    return y1
-
-
+for beta in beta_list:
+    f_init = [0, 0, 1]
+    f, f_prime, f_double_prime = solve_ivp(falkner_skan_differential_equation, t_span=(0, 5), y0=f_init, args=(beta,), t_eval=eta, method='RK45').y
+    while f_prime[-1] > 1:
+        f_init[2] -= 0.001
+        f, f_prime, f_double_prime = solve_ivp(falkner_skan_differential_equation, t_span=(0, 5), y0=f_init, args=(beta,), t_eval=eta, method='RK45').y
+    plt.plot(f_prime[:len(eta)], eta, label=r"$\beta={}$".format(beta))
+plt.xlabel('f'), plt.xlim(0,1), plt.ylim(0,5), plt.ylabel('$\eta$'), plt.legend(), plt.show()
