@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.28)  4 DEC 2023 23:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.28)  9 DEC 2023 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -674,68 +674,94 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box75
 \@float@everytoks=\toks41
 \@floatcapt=\box76
+) (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/csvsimple/csvsimple.sty
+Package: csvsimple 2023/10/16 v2.5.0 LaTeX CSV file processing
+) (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/csvsimple/csvsimple-legacy.sty
+Package: csvsimple-legacy 2023/10/16 version 2.5.0 LaTeX2e CSV file processing
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks42
+\pgfutil@tempdima=\dimen292
+\pgfutil@tempdimb=\dimen293
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box77
+) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks43
+\pgfkeys@temptoks=\toks44
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks45
+))) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
 )
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 17.
+\csv@file=\read3
+\c@csvinputline=\count338
+\c@csvrow=\count339
+\c@csvcol=\count340
+\csv@out=\write3
+)
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 16.
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 17.
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 17.
+(Font)              scaled to size 10.0pt on input line 16.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 16.
  (Project_2.aux)
 \openout1 = `Project_2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 17.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 17.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 16.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 16.
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 17.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 17.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 16.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 16.
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 17.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 17.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 16.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 16.
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 17.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 17.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 16.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 16.
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Info: Redefining \microtypecontext on input line 17.
-Package microtype Info: Applying patch `item' on input line 17.
-Package microtype Info: Applying patch `toc' on input line 17.
-Package microtype Info: Applying patch `eqnum' on input line 17.
-Package microtype Info: Applying patch `footnote' on input line 17.
-Package microtype Info: Applying patch `verbatim' on input line 17.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \microtypecontext on input line 16.
+Package microtype Info: Applying patch `item' on input line 16.
+Package microtype Info: Applying patch `toc' on input line 16.
+Package microtype Info: Applying patch `eqnum' on input line 16.
+Package microtype Info: Applying patch `footnote' on input line 16.
+Package microtype Info: Applying patch `verbatim' on input line 16.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 17.
+LaTeX Info: Redefining \showhyphens on input line 16.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -743,27 +769,27 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
-\scratchdimen=\dimen292
-\scratchbox=\box77
-\nofMPsegments=\count339
-\nofMParguments=\count340
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count341
-\MPscratchDim=\dimen293
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count341
+\scratchdimen=\dimen294
+\scratchbox=\box78
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen295
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks47
 ) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@mv@tabular=\count344
-\c@mv@boldtabular=\count345
-LaTeX Info: Command `\dddot' is already robust on input line 17.
-LaTeX Info: Command `\ddddot' is already robust on input line 17.
+\c@mv@tabular=\count347
+\c@mv@boldtabular=\count348
+LaTeX Info: Command `\dddot' is already robust on input line 16.
+LaTeX Info: Command `\ddddot' is already robust on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -807,27 +833,27 @@ Package caption Info: longtable package is loaded.
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 16.
  (Project_2.out) (Project_2.out)
-\@outlinefile=\write3
-\openout3 = `Project_2.out'.
+\@outlinefile=\write4
+\openout4 = `Project_2.out'.
 
 
-Package chemgreek Info: Activating mapping `newtx' on line 17.
+Package chemgreek Info: Activating mapping `newtx' on line 16.
 
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 17.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 16.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 19.
+(Font)              scaled to size 17.28pt on input line 18.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 19.
+(Font)              scaled to size 17.28pt on input line 18.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 20.
+(Font)              scaled to size 12.0pt on input line 19.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 20.
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 24.
+(Font)              scaled to size 12.0pt on input line 19.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 23.
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
@@ -835,37 +861,43 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `minntx' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 24.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 23.
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 24.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 23.
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 24.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 23.
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
 <Project 2.png, id=23, 462.528pt x 346.896pt>
 File: Project 2.png Graphic file (type png)
 <use Project 2.png>
-Package pdftex.def Info: Project 2.png  used on input line 45.
+Package pdftex.def Info: Project 2.png  used on input line 44.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 46.
-<Continuous beta.png, id=25, 462.528pt x 346.896pt>
+(Font)              scaled to size 10.0pt on input line 45.
+(Table_1.tex) [1
+
+{/Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./Project 2.png>]
+<Thwaites Walz.png, id=40, 462.528pt x 346.896pt>
+File: Thwaites Walz.png Graphic file (type png)
+<use Thwaites Walz.png>
+Package pdftex.def Info: Thwaites Walz.png  used on input line 55.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+<Continuous beta.png, id=41, 462.528pt x 346.896pt>
 File: Continuous beta.png Graphic file (type png)
 <use Continuous beta.png>
-Package pdftex.def Info: Continuous beta.png  used on input line 56.
+Package pdftex.def Info: Continuous beta.png  used on input line 65.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
-[1
-
-{/Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./Project 2.png>] [2 <./Continuous beta.png>] (Project_2.aux)
+ [2 <./Thwaites Walz.png> <./Continuous beta.png>] (Project_2.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
@@ -874,17 +906,17 @@ Package rerunfilecheck Info: File `Project_2.out' has not changed.
 (rerunfilecheck)             Checksum: 054BAAD013C65758A3FCFB5B8DB3543C;465.
  ) 
 Here is how much of TeX's memory you used:
- 23751 strings out of 476521
- 444093 string characters out of 5795522
- 1933555 words of memory out of 5000000
- 45339 multiletter control sequences out of 15000+600000
- 593304 words of font info for 90 fonts, out of 8000000 for 9000
+ 25047 strings out of 476521
+ 477564 string characters out of 5795522
+ 1934555 words of memory out of 5000000
+ 46592 multiletter control sequences out of 15000+600000
+ 594108 words of font info for 92 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 95i,7n,131p,1092b,931s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on Project_2.pdf (2 pages, 229179 bytes).
+ 95i,9n,131p,1092b,1012s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI7.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
+Output written on Project_2.pdf (2 pages, 263517 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 13875 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 86 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 13880 words of extra memory for PDF output out of 14400 (max. 10000000)
 

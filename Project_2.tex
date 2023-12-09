@@ -8,9 +8,8 @@
 \usepackage{siunitx}
 \usepackage{longtable,tabularx}
 \usepackage{float}
+\usepackage{csvsimple}
 \setlength\LTleft{0pt} 
-
-\graphicspath{/Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508}
 
 \title{Project 2}
 \author{Mauro Patimo}
@@ -38,7 +37,7 @@ With the following boundary conditions:
 \begin{equation}
     f(0)=f'(0)=0, \quad f'(\infty)=1
 \end{equation}
-
+The equations are solved numerically using the shooting method.
 \section{Results}
 \begin{figure}[H]
     \centering
@@ -47,11 +46,21 @@ With the following boundary conditions:
     \label{fig:Falkner-Skan for different betas}
 \end{figure}
 
+\begin{center}
+    \resizebox{0.35\linewidth}{!}{\input{Table_1.tex}}
+\end{center}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Thwaites Walz.png}
+    \caption{Different profile methods}
+    \label{fig:multiple profiles}
+\end{figure}
 \section{Conclusion}
 
 \appendix
 Additional work has been done to solve the Falkner-Skan equations for different values of $\beta$. 
-\begin{figure}
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{Continuous beta.png}
     \caption{Falkner-Skan flow for different betas}

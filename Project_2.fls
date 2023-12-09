@@ -203,6 +203,27 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/tabular
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/tabularx.sty
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/csvsimple/csvsimple.sty
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/csvsimple/csvsimple.sty
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/csvsimple/csvsimple-legacy.sty
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/csvsimple/csvsimple-legacy.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.def
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/pgf.revision.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/pgf.revision.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/shellesc.sty
+INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/shellesc.sty
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/t1ntxtlf.fd
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/t1ntxtlf.fd
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/t1ntxtlf.fd
@@ -296,13 +317,9 @@ INPUT ./Project 2.png
 INPUT ./Project 2.png
 INPUT ./Project 2.png
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntx-Bold-tlf-t1.tfm
-INPUT ./Continuous beta.png
-INPUT ./Continuous beta.png
-INPUT ./Continuous beta.png
-INPUT ./Continuous beta.png
-INPUT ./Continuous beta.png
-INPUT ./Continuous beta.png
-INPUT ./Continuous beta.png
+INPUT ./Table_1.tex
+INPUT ./Table_1.tex
+INPUT Table_1.tex
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/newtx/ntxmi.vf
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/NewTXMI.tfm
@@ -321,6 +338,23 @@ INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/p
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/ntx-Regular-tlf-ot1r.tfm
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/newtx/ntxmia.vf
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/txmiaSTbb.tfm
+INPUT ./Thwaites Walz.png
+INPUT ./Thwaites Walz.png
+INPUT ./Thwaites Walz.png
+INPUT ./Thwaites Walz.png
+INPUT ./Thwaites Walz.png
+INPUT ./Thwaites Walz.png
+INPUT ./Thwaites Walz.png
+INPUT ./Continuous beta.png
+INPUT ./Continuous beta.png
+INPUT ./Continuous beta.png
+INPUT ./Continuous beta.png
+INPUT ./Continuous beta.png
+INPUT ./Continuous beta.png
+INPUT ./Continuous beta.png
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/vf/public/newtx/ntxmi7.vf
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/NewTXMI7.tfm
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/newtx/stxscr.tfm
 INPUT Project_2.aux
 INPUT ./Project_2.out
 INPUT ./Project_2.out
@@ -328,6 +362,8 @@ INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/d
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI7.pfb
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI7.pfb
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb
