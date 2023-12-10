@@ -1,6 +1,6 @@
-PWD /Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508
+PWD /Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/Project 2
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/Project_2.tex
+INPUT /Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/Project 2/Project_2.tex
 OUTPUT Project_2.log
 INPUT ./new-aiaa.cls
 INPUT new-aiaa.cls
