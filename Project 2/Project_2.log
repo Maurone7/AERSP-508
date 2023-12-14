@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.28)  9 DEC 2023 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.11.28)  14 DEC 2023 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -873,50 +873,66 @@ LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 2
  (/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
 
  []
 
-<Project 2.png, id=23, 462.528pt x 346.896pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+<Project 2.png, id=27, 462.528pt x 346.896pt>
 File: Project 2.png Graphic file (type png)
 <use Project 2.png>
-Package pdftex.def Info: Project 2.png  used on input line 44.
+Package pdftex.def Info: Project 2.png  used on input line 48.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 45.
-(Table_1.tex) [1
+(Font)              scaled to size 10.0pt on input line 49.
+[1
 
-{/Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./Project 2.png>]
-<Thwaites Walz.png, id=40, 462.528pt x 346.896pt>
+{/Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
+<Pohlhausen.png, id=43, 462.528pt x 346.896pt>
+File: Pohlhausen.png Graphic file (type png)
+<use Pohlhausen.png>
+Package pdftex.def Info: Pohlhausen.png  used on input line 55.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+ (Table_1.tex)
+<Thwaites Walz.png, id=44, 462.528pt x 346.896pt>
 File: Thwaites Walz.png Graphic file (type png)
 <use Thwaites Walz.png>
-Package pdftex.def Info: Thwaites Walz.png  used on input line 55.
+Package pdftex.def Info: Thwaites Walz.png  used on input line 66.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
-<Continuous beta.png, id=41, 462.528pt x 346.896pt>
+ [2 <./Project 2.png> <./Pohlhausen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 88--93
+
+ []
+
+<Continuous beta.png, id=58, 462.528pt x 346.896pt>
 File: Continuous beta.png Graphic file (type png)
 <use Continuous beta.png>
-Package pdftex.def Info: Continuous beta.png  used on input line 65.
+Package pdftex.def Info: Continuous beta.png  used on input line 99.
 (pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
- [2 <./Thwaites Walz.png> <./Continuous beta.png>] (Project_2.aux)
+[3 <./Thwaites Walz.png>] [4 <./Continuous beta.png>] (Project_2.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `Project_2.out' has not changed.
-(rerunfilecheck)             Checksum: 054BAAD013C65758A3FCFB5B8DB3543C;465.
+(rerunfilecheck)             Checksum: C5E9D14374FF048583F197C9EF7E5178;630.
  ) 
 Here is how much of TeX's memory you used:
- 25047 strings out of 476521
- 477654 string characters out of 5795522
+ 25078 strings out of 476521
+ 478160 string characters out of 5795522
  1934555 words of memory out of 5000000
- 46592 multiletter control sequences out of 15000+600000
- 594108 words of font info for 92 fonts, out of 8000000 for 9000
+ 46603 multiletter control sequences out of 15000+600000
+ 595142 words of font info for 99 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 95i,9n,131p,1102b,1012s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI7.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on Project_2.pdf (2 pages, 263517 bytes).
+ 95i,9n,131p,1102b,933s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}{/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/NewTXMI7.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txexs.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/txsys.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmb.pfb></Users/mauro/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
+Output written on Project_2.pdf (4 pages, 310979 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 13880 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 116 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 13893 words of extra memory for PDF output out of 14400 (max. 10000000)
 

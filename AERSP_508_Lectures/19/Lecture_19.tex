@@ -1,8 +1,18 @@
 \documentclass{article}
 
 % Importing packages
-\usepackage{amsmath}
-\usepackage{amssymb}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{thmtools}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage[colorlinks=true, linkcolor=Blue]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+\newtcolorbox{mymathbox}[1][]{colback=white, sharp corners, #1}
+
 
 \title{Lecture 19}
 \author{Mauro Patimo}
@@ -15,7 +25,13 @@ Let's place a double at the origin in a free stream with velocity $U_\infty$. At
     u_r&=U_\infty\cos\theta\left(1-\frac{a^2}{r^2}\right)\\
     u_\theta&=-U_\infty\sin\theta\left(1+\frac{a^2}{r^2}\right)
 \end{align*}
-So we can trace a closed circle with a radius of $a$ around the doublet. The streamlines are shown in Fig. \ref{fig:Streamlines around a doublet}. \\
+So we can trace a closed circle with a radius of $a$ around the doublet. The streamlines are shown in Fig. \ref{fig:Streamlines around a doublet.png}. \\
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Streamlines around a doublet.png}
+    \caption{Streamlines around a doublet}
+    \label{fig:Streamlines around a doublet.png}
+\end{figure}
 Since the circle represent a streamline, we can replace it with a solid body. The flow around the body will be the same as the flow around the doublet. This is a good way to represent a solid body in a flow.\\
 We can notice how the the streamlines get closer to each other as the radius increases. Since our flow is incompressible, the velocity must increase as the radius increases. 
 We can further explain this by thinking about conservation of mass. Since the area (or volume for a 3D case) decreases, and the density is constant, the mass has to find a way to be conserved. We can then think about the mass flux:
@@ -35,6 +51,12 @@ We can also calculate the pressure coefficient, by comparing the pressure at a c
 \end{align*}
 The graph for the pressure coefficient is shown in Fig. \ref{fig:Pressure coefficient around a doublet}. The values on the axis are quite unusual. As they start from $1$ and end on $-3$ on the y-axis. The reason why a real flow doesn't match the theoretical curve is due to separation zones, that we'll look into in the future. As of right now, don't think about it.\\
 Since the pressure coefficient will be the same and the opposite on the top and bottom of the body, the net force will be zero. This is called \textbf{D'Alembert's paradox}.\\
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Pressure coefficient around a doublet.png}
+    \caption{Streamlines around a doublet}
+    \label{fig:Pressure coefficient around a doublet.png}
+\end{figure}
 Since the cylinder surface is a perfect circle we can add a point vortex at the center of it and not change the surface shape, simplifying our calculations.\\
 The velocity potential for a point vortex is:
 \begin{align*}
@@ -55,5 +77,23 @@ The stagnation points are no longer at $\theta=0$ and $\pi$. In order to calcula
     0 &= -u_{\infty}\left(1+\frac{a^2}{a^2}\right)sin\theta+\frac{\Gamma}{2\pi r}\\
     sin\theta&=\frac{\Gamma}{4\pi u_\infty a}\\
 \end{align*}
-So in case $\Gamma=4\pi u_\infty a$, the stagnation point is at $\theta=\frac{\pi}{2}$.In case $\Gamma>4\pi u_\infty a$, the stagnation points will lift off the surface. As shown in Fig. \ref{fig:}\\
+So in case $\Gamma=4\pi u_\infty a$, the stagnation point is at $\theta=\frac{\pi}{2}$.In case $\Gamma>4\pi u_\infty a$, the stagnation points will lift off the surface. As shown in Fig. \ref{fig:Stagnation point liftoff.png}. Remember that $\Gamma$ is measure in a counter-clockwise direction.\\
+We can then find the force on the cylinder by integrating the pressure coefficient over the surface of the cylinder:
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{Stagnation point liftoff.png}
+    \caption{Stagnation point liftoff}
+    \label{fig:Stagnation point liftoff.png}
+\end{figure}
+\begin{align*}
+    F & = \int -P \hat{n} dA=\int -\frac{1}{2}\rho U_\infty ^2 \int C_p \hat{n} dA
+    & = -\rho u_\infty \Gamma \hat{j}
+\end{align*}
+The force is perpendicular to the free stream velocity. This is called \textbf{Lift}. We can summarize the forces in the cylinder with two formulas:
+\begin{mymathbox}
+    \begin{align}
+        L'&=-\rho u_\infty \Gamma \quad \text{(Kutta-Joukowsky Theorem)} \\
+        D'&=0 \quad \text{(D'Alembert's Paradox)}
+    \end{align}
+\end{mymathbox}
 \end{document}

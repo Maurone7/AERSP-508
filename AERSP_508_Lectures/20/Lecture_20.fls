@@ -1,7 +1,7 @@
-PWD /Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/AERSP_508_Lectures/19
+PWD /Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/AERSP_508_Lectures/20
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
-INPUT /Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/AERSP_508_Lectures/19/Lecture_19.tex
-OUTPUT Lecture_19.log
+INPUT /Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/AERSP_508_Lectures/20/Lecture_20.tex
+OUTPUT Lecture_20.log
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/article.cls
 INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size10.clo
@@ -214,10 +214,10 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/trimspaces/tr
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/trimspaces/trimspaces.sty
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./Lecture_19.aux
-INPUT ./Lecture_19.aux
-INPUT Lecture_19.aux
-OUTPUT Lecture_19.aux
+INPUT ./Lecture_20.aux
+INPUT ./Lecture_20.aux
+INPUT Lecture_20.aux
+OUTPUT Lecture_20.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -227,14 +227,14 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epst
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/color.sty
-INPUT ./Lecture_19.out
-INPUT ./Lecture_19.out
-INPUT Lecture_19.out
-INPUT Lecture_19.out
-INPUT ./Lecture_19.out
-INPUT ./Lecture_19.out
-OUTPUT Lecture_19.out
-OUTPUT Lecture_19.pdf
+INPUT ./Lecture_20.out
+INPUT ./Lecture_20.out
+INPUT Lecture_20.out
+INPUT Lecture_20.out
+INPUT ./Lecture_20.out
+INPUT ./Lecture_20.out
+OUTPUT Lecture_20.out
+OUTPUT Lecture_20.pdf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr17.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr12.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmr8.tfm
@@ -268,32 +268,18 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfon
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT ./Streamlines around a doublet.png
-INPUT ./Streamlines around a doublet.png
-INPUT ./Streamlines around a doublet.png
-INPUT ./Streamlines around a doublet.png
-INPUT ./Streamlines around a doublet.png
-INPUT ./Streamlines around a doublet.png
-INPUT ./Streamlines around a doublet.png
-INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
-INPUT ./Pressure coefficient around a doublet.png
-INPUT ./Pressure coefficient around a doublet.png
-INPUT ./Pressure coefficient around a doublet.png
-INPUT ./Pressure coefficient around a doublet.png
-INPUT ./Pressure coefficient around a doublet.png
-INPUT ./Pressure coefficient around a doublet.png
-INPUT ./Pressure coefficient around a doublet.png
-INPUT ./Stagnation point liftoff.png
-INPUT ./Stagnation point liftoff.png
-INPUT ./Stagnation point liftoff.png
-INPUT ./Stagnation point liftoff.png
-INPUT ./Stagnation point liftoff.png
-INPUT ./Stagnation point liftoff.png
-INPUT ./Stagnation point liftoff.png
-INPUT Lecture_19.aux
-INPUT ./Lecture_19.out
-INPUT ./Lecture_19.out
+INPUT ./Argand Diagram.png
+INPUT ./Argand Diagram.png
+INPUT ./Argand Diagram.png
+INPUT ./Argand Diagram.png
+INPUT ./Argand Diagram.png
+INPUT ./Argand Diagram.png
+INPUT ./Argand Diagram.png
+INPUT /Users/mauro/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map
+INPUT Lecture_20.aux
+INPUT ./Lecture_20.out
+INPUT ./Lecture_20.out
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb
@@ -304,8 +290,6 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb
@@ -314,15 +298,9 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr5.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr7.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy7.pfb
