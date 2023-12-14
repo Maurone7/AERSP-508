@@ -24,13 +24,23 @@ $f$  & equation introduced in similarity solution \\
 $f'$ & derivative of f with respect to $\eta$ \\
 $\eta$ & variable introduced in similarity solution to relate y and x\\
 $\Lambda$ & constant introduced in similarity solution \\
+$\beta$ & parameter introduced in Falkner-Skan equation \\
+$\delta^*$ & displacement thickness \\
+$\theta$ & momentum thickness \\
+$C_f$ & skin friction coefficient \\
+$H$ & shape factor \\
+$Re_{\theta}$ & Reynolds number based on momentum thickness \\
+$g(x)$ & shape factor for Pohlhausen approximation \\
+$U_e$ & free stream velocity \\
 
 \end{longtable*}}
 
 \section{Introduction}
+Different methods can be used to calculate the velocity profile of a boundary layer.
 Falkner-Skan equations are a set of nonlinear differential equations that describe the flow of a viscous, incompressible fluid over a flat plate. The equations are a generalization of the Blasius equation, which is obtained by setting the pressure gradient to zero. \\
 The following paper will present a numerical solution to the Falkner-Skan equations for different values of the parameter $\beta$. 
 The results will be compared to the Pohlhausen approximation and the Thwaites-Walz method.\\
+The Pohlhausen approximation is a method used to calculate the velocity profile of a boundary layer. It is a simplification of the Falkner-Skan equations, which are a set of nonlinear differential equations that describe the flow of a viscous, incompressible fluid over a plate. The equations are a generalization of the Blasius equation, which is obtained by setting the pressure gradient to zero. \\
 \section{Procedure}
 The Falkner-Skan equation is:
 \begin{equation}
@@ -40,8 +50,8 @@ With the following boundary conditions:
 \begin{equation}
     f(0)=f'(0)=0, \quad f'(\infty)=1
 \end{equation}
-f(0) and f'(0) are set equal to zero due to the no-slip boundary condition. f'($\infty$) is set equal to 1 due to the free stream condition, where the flow's velocity parallel to the surface approaches $U_e$ when it is infinitely far away from the surface, in our case $\eta=100$. \\
-The equations are solved numerically using the shooting method. The initial conditions are guessed and the equations are solved using the secant method. The initial conditions are then adjusted until the boundary conditions are satisfied. \\
+$f(0)$ and $f'(0)$ are set equal to zero due to the no-slip boundary condition. $f'(\infty)$ is set equal to 1 due to the free stream condition, where the flow's velocity parallel to the surface approaches $U_e$ when it is infinitely far away from the surface, in our case $\eta=100$. \\
+The equations are solved numerically using the shooting method. The initial conditions are guessed and the equations are solved. If the value of $f''(\infty)\neq 0$ the initial conditions are then adjusted by using the secant method to find the roots of our equation, until the boundary conditions are satisfied. \\
 \section{Results}
 \begin{figure}[H]
     \centering
@@ -82,18 +92,19 @@ The skin fiction coefficient is calculated using the following equation:
 \begin{equation}
     C_f=\frac{2}{Re_{\theta}}\frac{d^2f}{d\eta^2}\Big|_{\eta=0}\frac{\theta}{g(x)}
 \end{equation}
+A higher skin friction coefficient means a higher drag coefficient. This is due to the fact that the skin friction coefficient is proportional to the shear stress, which is proportional to the drag force. It is quantifiable in the plot by looking at the slope of the velocity profile in relation to the height, the more horizontal the velocity profile the higher the skin-friction coefficient.\\
 The shape factor is calculated using the following equation:
 \begin{equation}
     H=\left(\frac{\theta}{g(x)}\right)^{-1} \left(\lim_{\eta \to \infty} \eta-f\right)
 \end{equation}
 It describes the shape of the velocity profile. A lower H value is present when $\beta$ values are higher because the flow is more turbulent and the boundary layer is thinner. \\
 As expected all the profiles plotted in Fig. \ref{fig:multiple profiles} are very similar. The Thwaites-Walz profile is a good approximation that simplifies our calculations and improves the running time of the scripts, in addition to being very easy to mentally visualize. 
-However, the calculations for out Falker-Skan profile take less than 1.5 seconds for 6 different values of beta, so the time constraint is not an issue. \\
+However, the calculations for out Falkner-Skan profile take less than 1.5 seconds for 6 different values of beta, so the time constraint is not an issue. \\
 Furthermore, the values shown in Table \ref{tab:table1} are within a reasonable error of the actual values. This also affects very slightly the plot in Fig. \ref{fig:multiple profiles}. \\
-
+The Pohlhausen approximation is a good approximation for the Falkner-Skan profile, but it is not as accurate as the Thwaites-Walz profile. \\
 \appendix
 \section{Appendix}
-As mentioned in \ref{sec:conclusion} since the time constraint is not an issue we can calculate the Falkner-Skan profile for many different type of $\beta$. Fig. \ref{fig:Falkner-Skan multiples betas} is an example of 40 values of $\beta$ in between $-0.1988$ and $0.5$ (which took less than 5 seconds). 
+As mentioned in \ref{sec:conclusion} since the time constraint is not an issue we can calculate the Falkner-Skan profile for many different type of $\beta$. Fig. \ref{fig:Falkner-Skan multiples betas} is an example of 40 values of $\beta$ in between $-0.1988$ and $0.5$. The runtime of the script to obtain this plot is about 5 seconds.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\textwidth]{Continuous beta.png}

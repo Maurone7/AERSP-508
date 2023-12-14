@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1702595801 "/Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/Project 2/Project_2.tex" "Project_2.pdf" "Project_2" 1702595803 0
+["pdflatex"] 1702597677 "/Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/Project 2/Project_2.tex" "Project_2.pdf" "Project_2" 1702597679 0
   "/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1701232169 3148 7e594c8240c71e432203f65ab5f95a51 ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii" 1701232177 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/Library/Application Support/MiKTeX/texmfs/install/tex/generic/atbegshi/atbegshi.sty" 1701232167 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -163,15 +163,15 @@
   "/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translations/translations.sty" 1701750079 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xpatch/xpatch.sty" 1701750045 8510 9829c50ab36366d4da41fdc87e7d0699 ""
   "/Users/mauro/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xstring/xstring.sty" 1701750047 123 a302f2c651a95033260db60e51527ae8 ""
-  "/Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/Project 2/Project_2.tex" 1702595799 5232 f2714b441daaacb8840d271e7352fabd ""
+  "/Users/mauro/Library/CloudStorage/OneDrive-ThePennsylvaniaStateUniversity/AERSP 508/Project 2/Project_2.tex" 1702597676 6706 90ce888556f9a91f2491abdd311819d0 ""
   "Continuous beta.png" 1702581952 96678 b6b0fc87fa699d919ee2a1d3c88375fb ""
-  "Pohlhausen.png" 1702595799 42418 6f868406156b373c721140d4c383199d ""
-  "Project 2.png" 1702595799 53718 950e50a30f35e69b47b6dc3c17c0038e ""
-  "Project_2.aux" 1702595803 2111 c66f47c458276127df8d45656623026b "pdflatex"
-  "Project_2.out" 1702595803 630 c5e9d14374ff048583f197c9ef7e5178 "pdflatex"
-  "Project_2.tex" 1702595799 5232 f2714b441daaacb8840d271e7352fabd ""
-  "Table_1.tex" 1702595799 560 e8fb99f9ceb112a898b5c396258018f2 ""
-  "Thwaites Walz.png" 1702595799 32363 c2f8362eeef8d64e1aff582f468b4bbf ""
+  "Pohlhausen.png" 1702595821 42418 6f868406156b373c721140d4c383199d ""
+  "Project 2.png" 1702595821 53718 950e50a30f35e69b47b6dc3c17c0038e ""
+  "Project_2.aux" 1702597679 2111 f271c9728136b00d192ead0a642bdadc "pdflatex"
+  "Project_2.out" 1702597679 630 c5e9d14374ff048583f197c9ef7e5178 "pdflatex"
+  "Project_2.tex" 1702597676 6706 90ce888556f9a91f2491abdd311819d0 ""
+  "Table_1.tex" 1702595821 560 e8fb99f9ceb112a898b5c396258018f2 ""
+  "Thwaites Walz.png" 1702595821 32363 c2f8362eeef8d64e1aff582f468b4bbf ""
   "new-aiaa.cls" 1701750025 2938 6495496c6ec29c9d8effcadfbb8e6731 ""
   (generated)
   "Project_2.aux"
